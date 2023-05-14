@@ -1,0 +1,18 @@
+h1:nth-child(1){
+    color: blue;
+}
+h1 + p{
+    font-style: italic;
+}
+.second{
+    display: none;
+    background-color: rgb(179, 255, 0);
+    color: black;
+    padding: 30px;
+}
+.first:hover>.second{
+    display: block;
+}
+.second::first-line{
+    font-size: 20px;
+}
